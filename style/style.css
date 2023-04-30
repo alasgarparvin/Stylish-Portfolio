@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+button {
+  background-color: #1d809f;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+button:hover {
+  background-color: #156178;
+}
+/* Header start */
+header {
+  background-image: url(../assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 350px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 60px;
+}
+header p {
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  margin: 10px 0 40px 0;
+}
+
+/* Header end */
+
+/* Main start */
+
+/* Project start */
+#project {
+  padding: 100px 0;
+  text-align: center;
+}
+#project h2 {
+  font-size: 30px;
+}
+#project p {
+  font-size: 20px;
+  font-weight: 100;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin: 15px 0 40px 0;
+}
+#project button {
+  background-color: #000;
+}
+#project button:hover {
+  background-color: #353232;
+}
+#project a {
+  color: #1d809f;
+}
+/* Project end */
+
+/* Service start */
+#service {
+  background-color: #1d809f;
+  padding: 150px 0;
+  text-align: center;
+}
+#service h5 {
+  font-size: 17px;
+  color: goldenrod;
+  text-transform: uppercase;
+}
+#service h2 {
+  color: #fff;
+  margin: 10px 0 50px 0;
+  font-size: 40px;
+}
+#service .icon {
+  width: 25%;
+  float: left;
+  color: #fff;
+}
+#service i {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 50%;
+  color: #1d809f;
+}
+#service h4 {
+  margin: 20px 0 15px 0;
+}
+#service p {
+  opacity: 0.7;
+}
+/* Service end */
+
+/* Welcome start */
+#welcome {
+  background-image: url(../assets/img/bg-callout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 150px 0;
+  text-align: center;
+}
+#welcome h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+/* Welcome end */
+
+/* Portfolio start */
+#portfolio {
+  padding: 110px 0;
+}
+#portfolio .content {
+  text-align: center;
+}
+#portfolio .content h5 {
+  font-size: 17px;
+  color: goldenrod;
+}
+#portfolio .content h2 {
+  color: #000;
+  margin: 10px 0 50px 0;
+  font-size: 40px;
+}
+#portfolio .portfolio-item {
+  transition: clip-path 0.5s;
+}
+#portfolio .item {
+  background-image: url(../assets/img/portfolio-1.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  float: left;
+  height: 400px;
+  clip-path: inset(0px);
+  transition: clip-path 0.5s;
+  color: #fff;
+  position: relative;
+}
+#portfolio .item:hover {
+  clip-path: inset(25px);
+}
+#portfolio .item:nth-child(2) {
+  background-image: url(../assets/img/portfolio-2.jpg);
+}
+#portfolio .item:nth-child(3) {
+  background-image: url(../assets/img/portfolio-3.jpg);
+}
+#portfolio .item:nth-child(4) {
+  background-image: url(../assets/img/portfolio-4.jpg);
+}
+#portfolio .text-holder {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  z-index: 10;
+}
+#portfolio .text-holder h4 {
+  margin-bottom: 10px;
+}
+#portfolio .text-holder p {
+  opacity: 0.7;
+}
+#portfolio .after {
+  background-color: #1d809f;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#portfolio .item:hover .after {
+  opacity: 0.5;
+}
+/* Portfolio end */
+/* Resist start */
+#resist {
+  background-color: #1d809f;
+  padding: 70px 0;
+  text-align: center;
+}
+#resist h2 {
+  color: #fff;
+  font-size: 30px;
+}
+#resist button:nth-child(2) {
+  background-color: #fff;
+  color: #000;
+  margin-right: 10px;
+}
+#resist button:nth-child(2):hover {
+  background-color: #d4d0d0;
+  color: #000;
+}
+#resist button:nth-child(3) {
+  background-color: #000;
+}
+#resist button:nth-child(3):hover {
+  background-color: #464646;
+}
+/* Resist end */
+/* Main end */
+
+/* Footer start */
+footer {
+  padding: 60px 0;
+  text-align: center;
+}
+footer .wrapper {
+  width: 20%;
+  margin: auto;
+}
+footer li {
+  list-style: none;
+  float: left;
+}
+footer i {
+  background-color: #1d809f;
+  border-radius: 50%;
+  padding: 20px;
+  color: #fff;
+  justify-content: center;
+}
+footer p{
+  margin-top: 15px;
+}
+
+/* Footer end */
